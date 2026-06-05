@@ -1,0 +1,117 @@
+{
+  "universe": {
+    "name": "综网宇宙",
+    "layers": [
+      {"id": "source_sea",    "name": "源海",       "desc": "终极混沌背景，所有宇宙的母体。无时空、无因果，接触即致命。"},
+      {"id": "supreme",       "name": "至高存在",    "desc": "林易东——综合评价：至高无上。职业：古神。技能：创造、毁灭。即使属性归零，综合评价依然不变。类似漫威OAA、D&D艾欧(Ao)。他是一切之因。"},
+      {"id": "aether_net",    "name": "以太网络",    "desc": "覆盖多元宇宙的超级互联网，连接所有世界的根骨。由至高存在林易东所创。"},
+      {"id": "cloverfield",   "name": "科洛弗事件",  "desc": "谢帕特粒子对撞机实验导致时空膜撕裂，平行宇宙彼此交错。混沌理论+蝴蝶效应决定各宇宙走向差异。这是各世界之间产生异常联系的根源机制。"},
+      {"id": "hell_below",    "name": "地狱之下平台", "desc": "综网旗下子平台，专收硬核高难度游戏。游戏内行为真实影响现实身心。由林易东参与创建。"},
+      {"id": "game_worlds",   "name": "各游戏世界",  "desc": "地狱之下平台收录的各个独立宇宙，即11卷故事的舞台。它们是一切的果。"}
+    ],
+    "causality": "林易东（至高存在）→ 以太网络 → 地狱之下平台 → 11卷游戏世界。因→果链。"
+  },
+  "platform": {
+    "name": "地狱之下",
+    "name_en": "HELL BELOW",
+    "slogan": "酒香不怕巷子深",
+    "founders": ["林易东"],
+    "features": [
+      "游戏内行为真实影响玩家现实身心",
+      "硬核高难度游戏专用平台",
+      "打破虚实的终极体验"
+    ]
+  },
+  "star_map": {
+    "name": "万象职业星图",
+    "sectors": 16,
+    "desc": "将所有职业按16象限分类，各卷主角对应不同象限。"
+  },
+  "cloverfield": {
+    "name": "科洛弗档案",
+    "origin": "源自林东的无限崩坏之旅中的世界观论述",
+    "components": [
+      {"id": "cf_file",      "name": "科洛弗档案",       "desc": "手持DV记录视角，巨型怪兽入侵地球。国防部机密文件。"},
+      {"id": "cf_lane",      "name": "科洛弗道10号",      "desc": "外星生物入侵，与科洛弗档案同属一个宇宙的不同时间线。"},
+      {"id": "cf_paradox",   "name": "科洛弗悖论",       "desc": "谢帕特粒子对撞机实验成功后过载，导致时空悖论，平行宇宙彼此交错。"}
+    ],
+    "sheppard": {
+      "name": "谢帕特",
+      "full_name": "谢帕特粒子对撞机",
+      "location": "外太空",
+      "purpose": "解决80亿人口导致的能源危机",
+      "consequence": "对撞成功后过载→时空膜撕裂→平行宇宙彼此交错→各种异常事件发生",
+      "mechanism": "混沌理论+蝴蝶效应：虽平行宇宙走向大体一致，但微小动作导致发展完全改变"
+    }
+  },
+  "supreme_being": {
+    "name": "林易东",
+    "status_panel": {
+      "player_name": "林东",
+      "level": "∞阶∞级",
+      "exp": "∞/∞",
+      "wealth": "∞",
+      "combat_power": "∞/∞",
+      "class": "古神",
+      "skills": ["创造", "毁灭"],
+      "evaluation": "至高无上",
+      "note": "即使将所有属性归零，综合评价依然为'至高无上'"
+    },
+    "cosmic_role": "一切的因。地狱之下11卷是一切的果。",
+    "analogues": [
+      {"franchise": "漫威", "entity": "OAA (One Above All)", "role": "至高造物主"},
+      {"franchise": "D&D", "entity": "艾欧 (Ao)", "role": "超越诸神之上的监督者"}
+    ],
+    "source": "林东的无限崩坏之旅·第六卷「林东」"
+  },
+  "connections": {
+    "hell_below_series": {
+      "relation": "地狱之下平台的各游戏世界",
+      "volumes": "11卷，各卷独立世界共享平台设定",
+      "cosmic_position": "一切之果——林易东创造的终末呈现"
+    },
+    "player_supreme": {
+      "title": "玩家之上",
+      "protagonist": "林易东",
+      "relation": "平台创始人视角，地狱之下是其核心机制",
+      "cosmic_position": "创始者记录——林易东创建平台的编年史",
+      "has_patch_notes": true
+    },
+    "solo_writer": {
+      "title": "单机作家",
+      "relation": "包含'地狱之下（无用版）'章节，用论文体解析综网/源海/帷幕/万象职业星图的理论架构",
+      "role": "设定圣典",
+      "cosmic_position": "理论圣典——宇宙规则的系统性阐述"
+    },
+    "lindong": {
+      "title": "林东的无限崩坏之旅",
+      "relation": "至高存在林易东的本传。含科洛弗档案/谢帕特/时空悖论等核心世界观论述。",
+      "cosmic_position": "一切之因——林易东的起源与至高地位",
+      "link_type": "因果之源",
+      "key_lore": ["科洛弗档案", "科洛弗悖论", "谢帕特对撞机", "平行宇宙交错", "时空膜撕裂"]
+    }
+  },
+  "ui_text": {
+    "boot_lines": [
+      "正在连接以太网络...",
+      "综网信号：已锁定",
+      "身份验证：通过",
+      "检测至高权限签名：至高无上",
+      "正在接入平台...",
+      "当前平台：地狱之下",
+      "平台状态：在线 | 硬核难度模式已激活",
+      "因果链校验：因→果 已确认",
+      "加载游戏库..."
+    ],
+    "welcome": "您已接入以太网络。当前平台：地狱之下。\n选择一条档案线，进入游戏世界。\n\n「因——林易东。果——地狱之下。」",
+    "hell_points_name": "地狱点数",
+    "hell_points_unit": "HP",
+    "signal_name": "综网信号",
+    "archive_name": "档案",
+    "game_lib_name": "游戏库",
+    "save_name": "档案存取",
+    "boot_title_1": "以 太 网 络",
+    "boot_title_2": "A E T H E R   N E T W O R K",
+    "boot_subtitle": "地 狱 之 下 平 台  ·  终 端 接 入"
+  }
+}

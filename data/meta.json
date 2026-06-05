@@ -1,0 +1,424 @@
+{
+  "game_title": "地狱之下",
+  "subtitle": "Hell Below",
+  "version": "4.0",
+  "series_config": {
+    "hell": {
+      "label": "地狱之下",
+      "icon": "🔥",
+      "relation": "一切之果",
+      "desc": "11个世界在地狱之下平台中独立运行",
+      "colors": {
+        "accent": "#8b2222",
+        "title": "#e0c080",
+        "badge": "#605040",
+        "bg": "#0f0f18",
+        "card_bg": "#0f0f18"
+      }
+    },
+    "w1": {
+      "label": "单机作家",
+      "icon": "📖",
+      "relation": "设定圣典",
+      "desc": "宇宙理论架构解析",
+      "colors": {
+        "accent": "#2a1a3a",
+        "title": "#c0a0e0",
+        "badge": "#5a4a6a",
+        "bg": "#0a0a12",
+        "card_bg": "#0e0e16"
+      }
+    },
+    "w2": {
+      "label": "林东的无限崩坏之旅",
+      "icon": "⚡",
+      "relation": "因果之源",
+      "desc": "林易东——至高无上的古神，一切之因",
+      "colors": {
+        "accent": "#3a2a1a",
+        "title": "#e0c080",
+        "badge": "#7a6a4a",
+        "bg": "#0c0a08",
+        "card_bg": "#100e0c"
+      }
+    },
+    "w3": {
+      "label": "玩家之上",
+      "icon": "📡",
+      "relation": "平台创始人视角",
+      "desc": "地狱之下平台创始记录",
+      "colors": {
+        "accent": "#1a3a2a",
+        "title": "#80e0a0",
+        "badge": "#4a7a5a",
+        "bg": "#080c0a",
+        "card_bg": "#0c100e"
+      }
+    }
+  },
+  "volumes": [
+    {
+      "volume": 1,
+      "title": "内森·温特斯",
+      "protagonist": "内森·温特斯",
+      "chapter_count": 59,
+      "file": "vol_01.json"
+    },
+    {
+      "volume": 2,
+      "title": "布莱恩·辛普森",
+      "protagonist": "布莱恩·辛普森",
+      "chapter_count": 56,
+      "file": "vol_02.json"
+    },
+    {
+      "volume": 3,
+      "title": "斯托克顿·亚当斯",
+      "protagonist": "斯托克顿·亚当斯",
+      "chapter_count": 53,
+      "file": "vol_03.json"
+    },
+    {
+      "volume": 4,
+      "title": "艾伦·艾布特",
+      "protagonist": "艾伦·艾布特",
+      "chapter_count": 54,
+      "file": "vol_04.json"
+    },
+    {
+      "volume": 5,
+      "title": "盘尼西林·帕金森",
+      "protagonist": "盘尼西林·帕金森",
+      "chapter_count": 68,
+      "file": "vol_05.json"
+    },
+    {
+      "volume": 6,
+      "title": "安娜·斯克兰顿",
+      "protagonist": "安娜·斯克兰顿",
+      "chapter_count": 54,
+      "file": "vol_06.json"
+    },
+    {
+      "volume": 7,
+      "title": "孛儿只斤·察合台",
+      "protagonist": "孛儿只斤·察合台",
+      "chapter_count": 52,
+      "file": "vol_07.json"
+    },
+    {
+      "volume": 9,
+      "title": "刘敬宣",
+      "protagonist": "刘敬宣",
+      "chapter_count": 87,
+      "file": "vol_09.json"
+    },
+    {
+      "volume": 10,
+      "title": "远坂凛世",
+      "protagonist": "远坂凛世",
+      "chapter_count": 59,
+      "file": "vol_10.json"
+    },
+    {
+      "volume": 11,
+      "title": "墟境·角色",
+      "protagonist": "墟境·角色",
+      "chapter_count": 75,
+      "file": "vol_11.json"
+    },
+    {
+      "volume": 12,
+      "title": "乔治斯·乔尔·拉姆齐-贝潘",
+      "protagonist": "乔治斯·乔尔·拉姆齐-贝潘",
+      "chapter_count": 61,
+      "file": "vol_12.json"
+    }
+  ],
+  "works": [
+    {
+      "book": "单机作家",
+      "prefix": "w1",
+      "relation": "设定圣典",
+      "cosmic_role": "宇宙理论架构解析",
+      "volumes": [
+        {
+          "file": "w1_v01.json",
+          "title": "序"
+        },
+        {
+          "file": "w1_v02.json",
+          "title": "第一卷 适应性防御"
+        },
+        {
+          "file": "w1_v03.json",
+          "title": "第二卷 文章熔炉"
+        },
+        {
+          "file": "w1_v04.json",
+          "title": "第三卷 机械性拼凑"
+        },
+        {
+          "file": "w1_v05.json",
+          "title": "第四卷 全新全异的开始"
+        },
+        {
+          "file": "w1_v06.json",
+          "title": "第五卷 选择你自己的冒险"
+        },
+        {
+          "file": "w1_v07.json",
+          "title": "第六卷 游戏搬运工"
+        },
+        {
+          "file": "w1_v08.json",
+          "title": "第七卷 单机作家"
+        },
+        {
+          "file": "w1_v09.json",
+          "title": "第八卷 终旅与始光"
+        },
+        {
+          "file": "w1_v10.json",
+          "title": "第九卷 终极答案"
+        },
+        {
+          "file": "w1_v11.json",
+          "title": "第十卷 观察者日志"
+        },
+        {
+          "file": "w1_v12.json",
+          "title": "第十一卷 上上善道生万形"
+        },
+        {
+          "file": "w1_v13a.json",
+          "title": "第十二卷 即兴时间（壹）"
+        },
+        {
+          "file": "w1_v13b.json",
+          "title": "第十二卷 即兴时间（贰）"
+        },
+        {
+          "file": "w1_v13c.json",
+          "title": "第十二卷 即兴时间（叁）"
+        },
+        {
+          "file": "w1_v13d.json",
+          "title": "第十二卷 即兴时间（肆）"
+        },
+        {
+          "file": "w1_v13e.json",
+          "title": "第十二卷 即兴时间（伍）"
+        }
+      ]
+    },
+    {
+      "book": "林东的无限崩坏之旅",
+      "prefix": "w2",
+      "relation": "因果之源",
+      "cosmic_role": "林易东——至高无上的古神，一切之因",
+      "volumes": [
+        {
+          "file": "w2_v01.json",
+          "title": "序"
+        },
+        {
+          "file": "w2_v02.json",
+          "title": "第一卷 狩神"
+        },
+        {
+          "file": "w2_v03.json",
+          "title": "第二卷 旅行"
+        },
+        {
+          "file": "w2_v04.json",
+          "title": "第三卷 危机"
+        },
+        {
+          "file": "w2_v05.json",
+          "title": "第四卷 道路"
+        },
+        {
+          "file": "w2_v06.json",
+          "title": "第五卷 游戏设计师"
+        },
+        {
+          "file": "w2_v07.json",
+          "title": "第六卷 林东"
+        },
+        {
+          "file": "w2_v08.json",
+          "title": "第七卷 金手指批发商"
+        },
+        {
+          "file": "w2_v09.json",
+          "title": "第八卷 大玩家"
+        },
+        {
+          "file": "w2_v10.json",
+          "title": "第九卷 吃鸡总动员"
+        },
+        {
+          "file": "w2_v11.json",
+          "title": "第十卷 现世"
+        },
+        {
+          "file": "w2_v12.json",
+          "title": "第十一卷 尾声"
+        },
+        {
+          "file": "w2_v13.json",
+          "title": "第十二卷 尾声之后"
+        },
+        {
+          "file": "w2_v14.json",
+          "title": "第十三卷 寻找希曼"
+        },
+        {
+          "file": "w2_v15.json",
+          "title": "第十四卷 《现实》"
+        },
+        {
+          "file": "w2_v16.json",
+          "title": "第十五卷 死中求活与游戏大佬"
+        },
+        {
+          "file": "w2_v17.json",
+          "title": "第十六卷 牧云屠杀三国"
+        },
+        {
+          "file": "w2_v18.json",
+          "title": "第十七卷 不忘初心，才能始终"
+        },
+        {
+          "file": "w2_v19.json",
+          "title": "第十八卷 死而复生"
+        },
+        {
+          "file": "w2_v20.json",
+          "title": "第十九卷 填坑之旅"
+        },
+        {
+          "file": "w2_v21.json",
+          "title": "第二十卷 余声"
+        }
+      ]
+    },
+    {
+      "book": "玩家之上",
+      "prefix": "w3",
+      "relation": "平台创始人视角",
+      "cosmic_role": "地狱之下平台创始记录",
+      "volumes": [
+        {
+          "file": "w3_v01.json",
+          "title": "序"
+        },
+        {
+          "file": "w3_v02.json",
+          "title": "第一卷 青铜时代"
+        },
+        {
+          "file": "w3_v03.json",
+          "title": "第二卷 黑铁时代"
+        },
+        {
+          "file": "w3_v04.json",
+          "title": "第三卷 石器时代"
+        },
+        {
+          "file": "w3_v05.json",
+          "title": "第四卷 冰河时代"
+        },
+        {
+          "file": "w3_v06.json",
+          "title": "第六卷 冰河时代"
+        },
+        {
+          "file": "w3_v07.json",
+          "title": "第七卷 奇迹时代"
+        },
+        {
+          "file": "w3_v08.json",
+          "title": "第八卷 荒芜时代"
+        },
+        {
+          "file": "w3_v09.json",
+          "title": "第九卷 救赎时代"
+        },
+        {
+          "file": "w3_v10.json",
+          "title": "第十卷 探索时代"
+        },
+        {
+          "file": "w3_v11.json",
+          "title": "第十一卷 创造时代"
+        },
+        {
+          "file": "w3_v12.json",
+          "title": "第十二卷 英豪时代"
+        },
+        {
+          "file": "w3_v13.json",
+          "title": "第十三卷 无敌时代"
+        },
+        {
+          "file": "w3_v14.json",
+          "title": "第十四卷 迷雾时代"
+        },
+        {
+          "file": "w3_v15.json",
+          "title": "第十五卷 黄金时代"
+        },
+        {
+          "file": "w3_v16.json",
+          "title": "第十六卷 进化时代"
+        },
+        {
+          "file": "w3_v17.json",
+          "title": "第十七卷 菜鸟时代"
+        },
+        {
+          "file": "w3_v18.json",
+          "title": "第十八卷 主角时代"
+        },
+        {
+          "file": "w3_v19.json",
+          "title": "第十九卷 青桐时代"
+        },
+        {
+          "file": "w3_v20.json",
+          "title": "第二十卷 橙红时代"
+        },
+        {
+          "file": "w3_v21.json",
+          "title": "第二十一卷 原初时代"
+        },
+        {
+          "file": "w3_v22.json",
+          "title": "第二十二卷 试炼时代"
+        },
+        {
+          "file": "w3_v23.json",
+          "title": "第二十三卷 地狱时代"
+        },
+        {
+          "file": "w3_v24.json",
+          "title": "第二十四卷 新生时代"
+        },
+        {
+          "file": "w3_v25.json",
+          "title": "第二十五卷 上升时代"
+        },
+        {
+          "file": "w3_v26.json",
+          "title": "第二十六卷 下沉时代"
+        },
+        {
+          "file": "w3_v27.json",
+          "title": "第二十七卷 凝固时代"
+        }
+      ]
+    }
+  ]
+}
