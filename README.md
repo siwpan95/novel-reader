@@ -119,7 +119,7 @@ hell_below_vn/
 
 ---
 
-## 仓库索引标注（2026-08-25 · siwpan 统一治理）
+## 仓库索引标注（2026-08-27 · siwpan 统一治理）
 
-> 本项目换电脑后本地源码遗失，本仓库为唯一留存；2026-08-25 已回拉备份至 G:\archive\novel-reader.game.backup-2026-08-25（勿删）。
+> 独立仓 siwpan/novel-reader；本地对应 G:\repos\novel-reader。本项目曾因换电脑遗失本地源码，2026-08-25 已回拉备份至 G:\archive\novel-reader.game.backup-2026-08-25（勿删）。
 > 本标注为发布面统一追加，不改变原有内容。
