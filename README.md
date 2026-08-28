@@ -123,3 +123,11 @@ hell_below_vn/
 
 > 独立仓 siwpan/novel-reader；本地对应 G:\repos\novel-reader。本项目曾因换电脑遗失本地源码，2026-08-25 已回拉备份至 G:\archive\novel-reader.game.backup-2026-08-25（勿删）。
 > 本标注为发布面统一追加，不改变原有内容。
+
+## 规则内核接入判定（R2 · 2026-08-27）
+
+勘查结论：本作为视觉小说引擎（综网终端，文本数据驱动 + Tkinter，纯标准库），
+无骰子、无角色属性数值——alloy.trpg（D&D 三宝书 + GURPS Basic Set）无同构原语可接；
+按「只接同构原语、绝不破坏行为契约」原则**不接入**（记账声明）。
+将来若引入检定/角色成长：`from alloy.trpg import Character, roll_3d6`（接入模式
+参照 running-group-simulator 的 `core/dice.py`）。
