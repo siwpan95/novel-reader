@@ -7,8 +7,8 @@ build_all.py
 
 ─────────────────────────────────────────────
 流水线 A：地狱之下正传（build_json.py 逻辑）
-  输入：C:/Users/13122/Desktop/小说/地狱之下/已完成/**/*.txt
-  输出：D:/allin/hell_below_vn/data/vol_01.json … vol_13.json
+  输入：环境变量 HB_SRC_DIR 指向的原文目录（其下按卷分目录）/**/*.txt
+  输出：<输出目录，默认本仓 data/>/vol_01.json … vol_13.json（NOVEL_READER_OUT 可覆盖）
 
   JSON 结构
     {
@@ -28,8 +28,8 @@ build_all.py
 
 ─────────────────────────────────────────────
 流水线 B：作品集（build_works_v2.py 逻辑，取代旧 build_zuopinji.py）
-  输入：C:/Users/13122/Desktop/小说/作品集/*.txt
-  输出：D:/allin/hell_below_vn/data/w1_v01.json … w3_vNX.json（按卷拆分，超大卷自动分册）
+  输入：环境变量 ZP_SRC_DIR 指向的作品集目录/*.txt
+  输出：<输出目录>/w1_v01.json … w3_vNX.json（按卷拆分，超大卷自动分册）
 
   JSON 结构
     {
@@ -44,7 +44,7 @@ build_all.py
     }
 
 ─────────────────────────────────────────────
-最终写入 D:/allin/hell_below_vn/data/meta.json（合并两条流水线的索引）
+最终写入 <输出目录>/meta.json（合并两条流水线的索引）
 """
 
 import re
