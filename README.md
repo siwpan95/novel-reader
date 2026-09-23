@@ -1,5 +1,8 @@
 # 综网终端 · 地狱之下平台  ·  视觉小说版
 
+> 仓库：<https://gitee.com/siwpan/novel-reader> ｜ 许可：MIT-0（MIT No Attribution）（见 [LICENSE](LICENSE)）
+> 注：文中 <PATH> 为路径占位符，请替换为你本机实际的目录 / 可执行文件路径。
+
 基于同名网络小说改编的 Tkinter 纯文字视觉小说游戏。
 UI 以「综网终端」风格呈现，玩家以终端操作者身份接入地狱之下平台，浏览各世界档案。
 
@@ -121,7 +124,7 @@ hell_below_vn/
 
 ## 仓库索引标注（2026-08-27 · siwpan 统一治理）
 
-> 独立仓 siwpan/novel-reader；本地对应 G:\repos\novel-reader。本项目曾因换电脑遗失本地源码，2026-08-25 已回拉备份至 G:\archive\novel-reader.game.backup-2026-08-25（勿删）。
+> 独立仓 siwpan/novel-reader；本地对应 <PATH>。本项目曾因换电脑遗失本地源码，2026-08-25 已回拉备份至 <PATH>（勿删）。
 > 本标注为发布面统一追加，不改变原有内容。
 
 ## 规则内核接入判定（R2 · 2026-08-27）
