@@ -56,9 +56,27 @@ from pathlib import Path
 #  全局配置
 # ═══════════════════════════════════════════════════════════
 
-HB_SRC_DIR = "C:/Users/13122/Desktop/小说/地狱之下/已完成"  # 地狱之下原文目录
-ZP_SRC_DIR = Path("C:/Users/13122/Desktop/小说/作品集")      # 作品集目录
-OUT_DIR    = Path("D:/allin/hell_below_vn/data")               # 统一输出目录
+# 2026-09-23 去本地化：源目录改由环境变量指定（原 C:/Users/.../Desktop 与 D:/allin 均已失效）；
+# 输出目录默认落在本仓 data/（可用 NOVEL_READER_OUT 覆盖）。
+_HERE = Path(__file__).resolve().parent
+
+
+def _src_dir(env_name: str, hint: str) -> Path:
+    v = os.environ.get(env_name)
+    if not v:
+        raise SystemExit(
+            f"[错误] 未设置 {env_name}（{hint}）。\n"
+            f"  例：set {env_name}=D:\\你的目录"
+        )
+    p = Path(v)
+    if not p.is_dir():
+        raise SystemExit(f"[错误] {env_name} 指向的目录不存在：{p}")
+    return p
+
+
+HB_SRC_DIR = _src_dir("HB_SRC_DIR", "地狱之下原文目录，其下按卷分目录")
+ZP_SRC_DIR = _src_dir("ZP_SRC_DIR", "作品集目录，内含各作品文本")      # 作品集目录
+OUT_DIR    = Path(os.environ.get("NOVEL_READER_OUT") or (_HERE / "data"))   # 统一输出目录
 
 PAGE_MAX    = 450   # 地狱之下：每页最大字符数（按段落自然切分）
 CHUNK_CHARS = 450   # 作品集：每页约字符数（按句末截断）
