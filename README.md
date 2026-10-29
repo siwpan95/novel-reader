@@ -1,5 +1,12 @@
 # 综网终端 · 地狱之下平台  ·  视觉小说版
 
+## 仓库角色定位（投资组合分级 ②）
+
+> 本仓在 siwpan 投资组合（D:/projects/repos，共 133 仓）中定级为 **② 保留**，领域 **小说/网文**。
+> **角色**：视觉小说。
+> **维护策略**：② 旗舰 / 枢纽仓库打磨保留，作为能力展示或收敛点；② 保留类仓库低优先维持、不主动扩张。
+> 投资组合统一分级索引：`D:/projects/repos/PORTFOLIO_TIERING.md`。
+
 > 仓库：<https://gitee.com/siwpan/novel-reader> ｜ 许可：MIT-0（MIT No Attribution）（见 [LICENSE](LICENSE)）
 > 注：文中 <PATH> 为路径占位符，请替换为你本机实际的目录 / 可执行文件路径。
 
